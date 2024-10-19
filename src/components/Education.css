@@ -1,0 +1,143 @@
+/* Education Page Styles */
+.education-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  /* Hero Section */
+  .education-hero {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .education-text {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .welcome-text {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #f77bff;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  h1 .highlight {
+    color: #ff007a;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #cccccc;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  
+  /* Education Photo */
+  .education-photo {
+    text-align: center;
+  }
+  
+  .education-group-pic {
+    width: 80%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Education Details Section */
+  .education-details {
+    padding: 20px;
+  }
+  
+  .details-title {
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .degree-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between items */
+  }
+  
+  /* Degree Card */
+  .degree-card {
+    background-color: #292929;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .degree-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .degree-image {
+    width: 100px; /* Fixed width for consistency */
+    height: 100px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures image maintains its aspect ratio */
+    border-radius: 10px;
+    margin-right: 20px; /* Space between image and content */
+  }
+  
+  .degree-content {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .degree-card {
+      flex-direction: column; /* Stack image and content vertically on smaller screens */
+      align-items: center; /* Center items on smaller screens */
+      text-align: center; /* Center text */
+    }
+  
+    .degree-image {
+      margin-right: 0; /* Remove margin on smaller screens */
+      margin-bottom: 10px; /* Space below the image */
+    }
+  
+    .degree-list {
+      align-items: center; /* Center items on smaller screens */
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  }
+  

@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  
+  .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .nav-links a {
+    margin-right: 20px;
+  }
+  
+  .buy-now {
+    background-color: #ff007a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .buy-now:hover {
+    background-color: #e6006b;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .hero-text {
+    max-width: 600px;
+  }
+  
+  .welcome-text {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #f77bff;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  
+  h1 .highlight {
+    color: #ff007a;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  h2 .profession {
+    color: #ff007a;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #cccccc;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  
+  .hero-image {
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    margin-top: 30px;
+  }
+  
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .social-icons a:hover {
+    color: #ff007a;
+  }
+  

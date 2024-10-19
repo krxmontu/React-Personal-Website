@@ -1,0 +1,143 @@
+/* Ensure Full Height for HTML and Body */
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Ensure vertical scroll is allowed */
+  }
+  
+  /* General Page Styles */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box;
+  }
+  
+  /* Family Page Container */
+  .family-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    min-height: 100vh; /* Ensure the content spans at least the viewport height */
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Adds spacing between sections */
+  }
+  
+  /* Hero Section */
+  .family-hero {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .family-text {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .welcome-text {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #f77bff;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  h1 .highlight {
+    color: #ff007a;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #cccccc;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  
+  /* Family Group Photo */
+  .family-photo {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .family-group-pic {
+    width: 80%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Individual Family Members Section */
+  .family-members {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .member-card {
+    background-color: #292929;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .member-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .member-image {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; /* Ensures image maintains its aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .family-members {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .member-card {
+      width: 80%;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  }
+  
