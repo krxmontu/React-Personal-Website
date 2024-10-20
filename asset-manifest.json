@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React-Personal-Website/static/css/main.c475a2ca.css",
+    "main.js": "/React-Personal-Website/static/js/main.ac65579f.js",
+    "static/js/453.253ccfac.chunk.js": "/React-Personal-Website/static/js/453.253ccfac.chunk.js",
+    "static/media/coding.png": "/React-Personal-Website/static/media/coding.6cc43ce6c53067ffcad6.png",
+    "static/media/family.png": "/React-Personal-Website/static/media/family.6b9d1ca86342980c26cc.png",
+    "static/media/design-cert.png": "/React-Personal-Website/static/media/design-cert.153414cce8f5e768efe4.png",
+    "static/media/programming-cert.png": "/React-Personal-Website/static/media/programming-cert.153414cce8f5e768efe4.png",
+    "static/media/contribution.png": "/React-Personal-Website/static/media/contribution.1af2572484e337a3049f.png",
+    "static/media/sibling.png": "/React-Personal-Website/static/media/sibling.a631e8fdfc4aeebe3e45.png",
+    "static/media/helping.png": "/React-Personal-Website/static/media/helping.15d02df7d5ce4d859981.png",
+    "static/media/fundraising.png": "/React-Personal-Website/static/media/fundraising.75e7cfdf49bf1b7cac9e.png",
+    "static/media/volunteering.png": "/React-Personal-Website/static/media/volunteering.b74391fc52e487a0266f.png",
+    "static/media/travel.png": "/React-Personal-Website/static/media/travel.91e0f650706f8ea81844.png",
+    "static/media/education.png": "/React-Personal-Website/static/media/education.3a15affe4938e6ceeee3.png",
+    "static/media/certificate.png": "/React-Personal-Website/static/media/certificate.7b6484adb09bc40560f2.png",
+    "static/media/father.png": "/React-Personal-Website/static/media/father.916f3fadb29f4a8dd479.png",
+    "static/media/community-service.png": "/React-Personal-Website/static/media/community-service.344546dd59a891cb3cb8.png",
+    "static/media/uncle.png": "/React-Personal-Website/static/media/uncle.4059785505c8a5999ca3.png",
+    "static/media/music.png": "/React-Personal-Website/static/media/music.f28b120460d60142497a.png",
+    "static/media/profile.png": "/React-Personal-Website/static/media/profile.7787deca3b19eaa5c06b.png",
+    "static/media/degree.png": "/React-Personal-Website/static/media/degree.4de3eaed11b4f81b018d.png",
+    "static/media/school.png": "/React-Personal-Website/static/media/school.f68286ffc23d25f8903e.png",
+    "index.html": "/React-Personal-Website/index.html",
+    "main.c475a2ca.css.map": "/React-Personal-Website/static/css/main.c475a2ca.css.map",
+    "main.ac65579f.js.map": "/React-Personal-Website/static/js/main.ac65579f.js.map",
+    "453.253ccfac.chunk.js.map": "/React-Personal-Website/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c475a2ca.css",
+    "static/js/main.ac65579f.js"
+  ]
+}
