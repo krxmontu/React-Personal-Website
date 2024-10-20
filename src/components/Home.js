@@ -8,8 +8,8 @@ function Home() {
       <section className="hero">
         <div className="hero-text">
           <p className="welcome-text">WELCOME TO MY WORLD</p>
-          <h1>Hi, I'm <span className="highlight">Jone Lee</span></h1>
-          <h2>a <span className="profession">Developer</span>.</h2>
+          <h1>Hi, I'm <span className="highlight">Montu Kumar</span></h1>
+          <h2>a <span className="profession">Coding Enthusiast</span>.</h2>
           <p className="description">
             I use animation as a third dimension by which to simplify experiences and guiding through each interaction.
             I’m not adding motion just to spruce things up, but doing it in ways that make sense.

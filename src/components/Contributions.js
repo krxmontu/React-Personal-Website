@@ -3,6 +3,7 @@ import contributionImage from '../assets/images/contribution.png'; // Make sure 
 import communityService from '../assets/images/community-service.png'; // Image for community service
 import volunteering from '../assets/images/volunteering.png'; // Image for volunteering
 import fundraising from '../assets/images/fundraising.png'; // Image for fundraising
+import helping from '../assets/images/helping.png'; // Image for helping
 
 function Contributions() {
   return (
@@ -51,6 +52,14 @@ function Contributions() {
             </div>
           </div>
 
+          <div className="card">
+            <img src={helping} alt="helping" className="card-image" />
+            <div className="card-content">
+              <h3>Helping Others</h3>
+              <p>Description: Helpin others through sharing resources and guiding to success.</p>
+              <p>Date: 2021 - Present</p>
+            </div>
+          </div>
           {/* Add more contributions as needed */}
         </div>
       </section>

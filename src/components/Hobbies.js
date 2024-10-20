@@ -8,13 +8,12 @@ function Hobbies() {
 <div className="hobbies-page">
       <section className="hobbies-hero">
         <div className="hobbies-text">
-          <p className="welcome-text">THINGS I LOVE</p>
           <h1>
             My <span className="highlight">Hobbies</span>
           </h1>
           <p className="description">
-            Life is not just about work. I find joy in activities that inspire me and fuel my creativity. 
-            Here are a few things I love doing when I’m not coding.
+          In my free time, I enjoy playing cricket, exploring the internet for new knowledge, and learning about investments and financial planning. These hobbies help me balance my academic and personal life, allowing me to stay active and informed.
+
           </p>
         </div>
       </section>
@@ -25,7 +24,7 @@ function Hobbies() {
           <img src={codingImage} alt="Coding" className="hobby-image" />
           <h3>Coding</h3>
           <p>
-            I love creating software solutions and bringing ideas to life through code. It’s both my passion and profession!
+            I love creating software solutions and bringing ideas to life through code.
           </p>
         </div>
 

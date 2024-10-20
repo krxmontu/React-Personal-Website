@@ -11,8 +11,10 @@ function Education() {
         <p className="welcome-text">MY EDUCATION JOURNEY</p>
         <h1>Education is <span className="highlight">Empowerment</span></h1>
         <p className="description">
-          Education has been a transformative journey for me. Every step I took has shaped my skills, perspectives, 
-          and aspirations for the future.
+        I completed my 10th grade from K.B.M English School, Golaghat, and my 12th grade from Ramanujan Junior College, Nagaon. These formative years played a significant role in shaping my academic journey, providing me with a strong foundation in both academics and extracurricular activities.
+
+        <br></br> Currently, I am in my final year of BCA at Assam Down Town University. My college life has been a blend of academic learning, project development, and participating in various tech-related activities and hackathons. The atmosphere in college has allowed me to collaborate with my peers on several exciting projects.
+
         </p>
       </div>
 
@@ -28,7 +30,7 @@ function Education() {
           <img src={degreeImage} alt="Degree" className="degree-image" />
           <div className="degree-content">
             <h3>Bachelor of Science in Computer Science</h3>
-            <p>University of Technology | 2018 - 2022</p>
+            <p>Assam Down Town University | 2023 - 2026</p>
             <p>This degree provided me with a strong foundation in programming and software development.</p>
           </div>
         </div>
@@ -36,8 +38,8 @@ function Education() {
         <div className="degree-card">
           <img src={schoolImage} alt="School" className="degree-image" />
           <div className="degree-content">
-            <h3>High School Diploma</h3>
-            <p>High School of Excellence | 2014 - 2018</p>
+            <h3>High School Class 12th</h3>
+            <p>High School of Excellence | 2020 - 2022</p>
             <p>Here, I developed critical thinking and problem-solving skills that I carry into my academic pursuits.</p>
           </div>
         </div>

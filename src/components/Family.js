@@ -1,7 +1,7 @@
 import './Family.css';
 import familyPhoto from '../assets/images/family.png'; // Example family group photo
 import fatherImage from '../assets/images/father.png';
-import motherImage from '../assets/images/mother.png';
+import uncleImage from '../assets/images/uncle.png';
 import siblingImage from '../assets/images/sibling.png';
 
 function Family() {
@@ -15,7 +15,8 @@ function Family() {
           </h1>
           <p className="description">
             Family is my pillar of support and inspiration. They’ve shaped me into the person I am today, 
-            and I cherish every moment I spend with them.
+            and I cherish every moment I spend with them. My family consists of my father, and my extended relatives. My family has always supported me in pursuing my education and dreams.
+
           </p>
         </div>
 
@@ -36,10 +37,10 @@ function Family() {
         </div>
 
         <div className="member-card">
-          <img src={motherImage} alt="Mother" className="member-image" />
-          <h3>Mother</h3>
+          <img src={uncleImage} alt="Mother" className="member-image" />
+          <h3>Uncle</h3>
           <p>
-            My mother is the heart of our family. She brings warmth, love, and balance to everything we do.
+            My uncle is the great of our family and the great man. He brings warmth and balance to everything we do.
           </p>
         </div>
 
